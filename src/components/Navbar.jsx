@@ -56,7 +56,7 @@ export const Navbar = () => {
                     "transition-all duration-300 md:hidden",
                     isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
                 )}>
-                <div className="flex flex-col space-y-8 text-xs">
+                <div className="flex flex-col space-y-8 text-sm">
                     {navitems.map((item, key) => (
                         <a key={key}
                 href={item.href} className="text-foreground/80 hover:text-primary transition-colors duration-300"

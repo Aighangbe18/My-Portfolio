@@ -82,7 +82,7 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <h4 className="font-normal mb-4"> Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="https://github.com/Aighangbe18" target="_blank">
+                                <a href="https://www.linkedin.com/in/blessing-aighangbe-83135b24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                                     <Linkedin size={16}/>
                                 </a>
                                 <a href="https://x.com/blesingbillion?t=jahhXPZ0rBsFtKIJkGhLFA&s=09" target="_blank">

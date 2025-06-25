@@ -53,11 +53,11 @@ export const ProjectSection = () => {
                                 <img src={project.image} alt={project.title} 
                                 className="w-full object-cover transition-transform duration-500 group-hover:scale-110" />
                              <h3 className="text-sm font-semibold mb-1 mt-2.5">{project.title}</h3>
-                            <p className="text-muted-foreground text-xs mb-1">{project.Description}</p>
+                            <p className="text-muted-foreground text-xs mt-3 mb-1">{project.Description}</p>
                             </div>
 
                             <div className="p-3">
-                                <div className="flex flex-wrap gap-2 mb-2">
+                                <div className="flex flex-wrap gap-2 mt-2 mb-2">
                                     {project.tags.map((tag, index) => (
             <span key={index} className="px-2 py-1 text-xs font-normal 
             border rounded-full bg-secondary text-secondary-foreground">
