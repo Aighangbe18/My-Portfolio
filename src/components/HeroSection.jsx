@@ -14,7 +14,7 @@ export const HeroSection = () => {
                          AIGHANGBE</span>
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> BLESSING</span>
                 </h1>
-                <p className="text-sm md:text-xl text-muted-foreground max-2-2xl mb-10 mx-auto opacity-0 animate-fade-in-delay-3">
+                <p className="text-sm md:text-2xl text-muted-foreground max-2-2xl mb-10 mx-auto opacity-0 animate-fade-in-delay-3">
                     I create stellar web experiences with modern technologies. specializing in 
                     front-end development, I build interfaces that are 
                     both beautiful and functional. With a keen eye for design and a passion for coding, I 
@@ -27,7 +27,7 @@ export const HeroSection = () => {
                     in collaborative environments where I can work with cross-functional teams to deliver exceptional results. 
                 </p>
 
-                <div className="opacity-0 animate-fade-in-delay-4 mb-10">
+                <div className="opacity-0 animate-fade-in-delay-4 mb-10 text-2xl">
                     <a href="#projects" className="cosmic-button">
                         View My Work
                     </a>
