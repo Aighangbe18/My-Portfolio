@@ -24,18 +24,18 @@ export const ContactSection = () => {
   };
     return <section id="contact" className="py-24 px-4 relative bg-secondary/30">
         <div className="container mx-auto max-w-5xl">
-            <h2 className="text-2xl md:text-2xl font-bold mb-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
                 Get In <span className="text-primary"> Touch</span>
             </h2>
 
-            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
                 Have a project in mind or want to collaborate ? Feel free to reach out.
                 I'm always open to discussing new opportunities.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="space-y-8">
-                    <h3 className="text-xl font-semibold mb-6">
+                    <h3 className="text-2xl font-semibold mb-6">
                         {" "}
                         Contact Information
                         </h3>
@@ -43,22 +43,22 @@ export const ContactSection = () => {
                         <div className="space-y-6 justify-center">
                             <div className="flex items-start space-x-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Mail className="h-3 w-3 text-primary" /> {" "}
+                                    <Mail className="h-6 w-6 text-primary" /> {" "}
                                 </div>
                                 <div>
-                                    <h4 className="text-sm"> Email</h4>
+                                    <h4 className="text-xl"> Email</h4>
                                     <a href="mailto:baighangbe@gmail.com"
-                                    className="text-xs hover:text-primary transition-colors">
+                                    className="text-xl hover:text-primary transition-colors">
                                         baighangbe@gmail.com
                                     </a>
                                 </div>
                             </div>
                             <div className="flex items-start space-x-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <PhoneCall className="h-3 w-3 text-primary" /> {" "}
+                                    <PhoneCall className="h-6 w-6 text-primary" /> {" "}
                                 </div>
                                 <div>
-                                    <h4 className="text-sm"> Phone</h4>
+                                    <h4 className="text-xl"> Phone</h4>
                                     <a href="tel:+2349030669440"
                                     className="text-muted-foreground hover:text-primary transition-colors">
                                         +234903066940 
@@ -67,10 +67,10 @@ export const ContactSection = () => {
                             </div>
                             <div className="flex items-start space-x-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <MapPin className="h-3 w-3 text-primary" /> {" "}
+                                    <MapPin className="h-6 w-6 text-primary" /> {" "}
                                 </div>
                                 <div>
-                                    <h4 className="text-sm"> Location</h4>
+                                    <h4 className="text-xl"> Location</h4>
                                     <a
                                     className="text-muted-foreground hover:text-primary transition-colors">
                                         Ogudu, Lagos, Nigeria. 
@@ -80,59 +80,59 @@ export const ContactSection = () => {
                         </div>
 
                         <div className="pt-8">
-                            <h4 className="font-normal mb-4"> Connect With Me</h4>
+                            <h4 className="font-normal text-2xl mb-4"> Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
                                 <a href="https://www.linkedin.com/in/blessing-aighangbe-83135b24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-                                    <Linkedin size={16}/>
+                                    <Linkedin size={24}/>
                                 </a>
                                 <a href="https://x.com/blesingbillion?t=jahhXPZ0rBsFtKIJkGhLFA&s=09" target="_blank">
-                                    <Twitter size={16}/>
+                                    <Twitter size={24}/>
                                 </a>
                                 <a href="https://www.instagram.com/tallest_oba?utm_source=qr&igsh=MTBmbjkyNG51NTlicA==" target="_blank">
-                                    <Instagram size={16}/>
+                                    <Instagram size={24}/>
                                 </a>
                                 <a href="" target="_blank">
-                                    <Twitch size={16}/>
+                                    <Twitch size={24}/>
                                 </a>
                             </div>
                         </div>
                 </div>
 
                 <div className="bg-card p-8 rounded-lg shadow-xs">
-                    <h3 className="text-sm font-semibold mb-2.5"> Send a Message</h3>
+                    <h3 className="text-2xl font-semibold mb-2.5"> Send a Message</h3>
 
                     <form action="" className="space-y-6">
                         <div>
-                            <label htmlFor="name" className="block text-sm font-normal mb-2"> Your Name</label>
+                            <label htmlFor="name" className="block text-xl font-normal mb-2"> Your Name</label>
                             <input type="text"
                             id="name"
                             name="name"
                             required
-                            className="w-full px-4 py-3 rounded-md text-xs 
+                            className="w-full px-4 py-3 rounded-md text-xl 
                             border border-input bg-background focus-outline-hidden focus:ring-2 focus:ring-primary" 
                             placeholder="John Doe..."/>
                         </div>
 
                         <div>
-                            <label htmlFor="name" className="block text-sm font-normal mb-2"> Your Email</label>
+                            <label htmlFor="name" className="block text-xl font-normal mb-2"> Your Email</label>
                             <input type="email"
                             id="email"
                             name="email"
                             required
-                            className="w-full px-4 py-3 rounded-md text-xs 
+                            className="w-full px-4 py-3 rounded-md text-xl 
                             border border-input bg-background focus-outline-hidden focus:ring-2 focus:ring-primary" 
                             placeholder="John@gmail.com..."/>
                         </div>
 
                         <div>
-                            <label htmlFor="message" className="block text-sm font-normal mb-2">
+                            <label htmlFor="message" className="block text-xl font-normal mb-2">
                                 {" "}
                                  Your Message</label>
                             <textarea type="text"
                             id="message"
                             name="message"
                             required
-                            className="w-full px-4 py-3 rounded-md text-xs resize-none 
+                            className="w-full px-4 py-3 rounded-md text-xl resize-none 
                             border border-input bg-background focus-outline-hidden focus:ring-2 focus:ring-primary" 
                             placeholder="Hello, I'd like to talk about..."/>
                         </div>
@@ -141,11 +141,11 @@ export const ContactSection = () => {
                 type="submit"
                 disabled={isSubmitting}
                 className={cn(
-                  "cosmic-button w-full text-xs flex items-center justify-center gap-2"
+                  "cosmic-button w-full text-xl flex items-center justify-center gap-2"
                 )}
               >
                 {isSubmitting ? "Sending..." : "Send Message"}
-                <Send size={16} />
+                <Send size={24} />
               </button>
                     </form>
                 </div>

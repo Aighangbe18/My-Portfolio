@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="py-8 px-4 bg-card relative border-t border-border mt-12 pt-4 flex flex-wrap justify-between items-center">
       {" "}
-      <p className="text-xs text-muted-foreground">
+      <p className="text-xl text-muted-foreground">
         {" "}
         &copy; {new Date().getFullYear()} Tallest.co. All rights reserved.
       </p>
@@ -12,7 +12,7 @@ export const Footer = () => {
         href="#hero"
         className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
       >
-        <ArrowUp size={16} />
+        <ArrowUp size={24} />
       </a>
     </footer>
   );
