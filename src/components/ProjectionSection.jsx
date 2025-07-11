@@ -13,6 +13,26 @@ const projects = [
 
     {
         id: 2,
+        title: "An Ecommerce Website",
+        Description: "A beautiful Landing page using React, API and Tailwind",
+        image: "/projects/project 6.png",
+        tags: ["React", "TypeScript", "Supabase"],
+        Url: "https://manuel-aig-elzc.vercel.app/",
+        githubURL: "https://github.com/Aighangbe18/ManuelAig",
+    },
+
+    {
+        id: 3,
+        title: "A Gmail Clone Website",
+        Description: "A Websites with the same features as Gmail",
+        image: "/projects/project 7.png",
+        tags: ["React", "Javascript", "Node.js"],
+        Url: "https://gmail-gamma-six.vercel.app/",
+        githubURL: "https://github.com/Aighangbe18/Gmail",
+    },
+
+    {
+        id: 4,
         title: "SaaS Landing Page",
         Description: "A beautiful Landing page using React and Tailwind",
         image: "/projects/project 2.png",
@@ -22,7 +42,7 @@ const projects = [
     },
 
     {
-        id: 3,
+        id: 5,
         title: "A School Website Page",
         Description: "A beautiful Landing page using React and Tailwind",
         image: "/projects/project 3.png",
@@ -31,8 +51,9 @@ const projects = [
         githubURL: "https://github.com/Aighangbe18/Tallest_blesscity",
     },
 
+
     {
-        id: 4,
+        id: 6,
         title: "A Music Research Page",
         Description: "A beautiful Landing page using React , framer motion and Tailwind",
         image: "/projects/project 4.png",
@@ -42,7 +63,7 @@ const projects = [
     },
 
     {
-        id: 5,
+        id: 7,
         title: "A  Music School Website Page",
         Description: "A beautiful Landing page using React and Tailwind",
         image: "/projects/project 5.png",
