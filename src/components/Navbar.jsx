@@ -7,6 +7,7 @@ const navitems = [
     {name: "About", href: "#about"},
     {name: "Skills", href: "#skills"},
     {name: "Projects", href: "#projects"},
+    {name: "Rates", href: "#RateCard"},
     {name: "Contact", href: "#contact"},
 ]
 

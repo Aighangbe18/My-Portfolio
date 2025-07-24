@@ -1,6 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
+     {
+        id: 1,
+        title: "A Muscian Website Page",
+        Description: "Interactive analytics dashboard with data visualization and booking capabilities.",
+        image: "/projects/adura.png",
+        tags: ["React", "TaiLWindCSS", "Figma"],
+        Url: "https://singer-afe.vercel.app/",
+        githubURL: "https://github.com/Aighangbe18/SingerAfe",
+    },
     {
         id: 1,
         title: "A Booking Hotel Page",
