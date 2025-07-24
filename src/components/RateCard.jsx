@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import {
   Code, // Icon for Web Development
@@ -10,9 +10,7 @@ import {
   DollarSign,
   CalendarClock,
   ArrowRight,
-  Mail, // Contact Icon
-  Phone, // Contact Icon
-  MapPin, // Location Icon
+ 
 } from "lucide-react";
 
 // Simulated Tailwind CSS setup and custom styles
@@ -50,12 +48,7 @@ const GlobalStyles = () => (
     }
 
     /* Keyframes for animations */
-    @keyframes gradient-shift {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
-    @keyframes fade-in-up {
+      @keyframes fade-in-up {
         0% { opacity: 0; transform: translateY(20px); }
         100% { opacity: 1; transform: translateY(0); }
     }
@@ -154,24 +147,33 @@ const GlobalStyles = () => (
 const services = [
   {
     id: 1,
-    name: "Custom Website Design & Development",
+    name: "  Static Website Design & Development",
     description:
-      "Full-stack development of a unique, responsive website tailored to your brand and business needs, including UI/UX design and front-end/back-end implementation.",
-    price: "Starting from $2500",
-    duration: "4-8 weeks",
+      "A static development of a unique, responsive website tailored to your brand and business needs, including UI/UX design and front-end implementation.",
+    price: "Starting from $500",
+    duration: "1-3 weeks",
     icon: Globe,
   },
   {
     id: 2,
+    name: "Custom Website Design & Development",
+    description:
+      "Full-stack development of a unique, responsive website tailored to your brand and business needs, including UI/UX design and front-end/back-end implementation.",
+    price: "Starting from $1500",
+    duration: "4-8 weeks",
+    icon: Globe,
+  },
+  {
+    id: 3,
     name: "E-commerce Solutions",
     description:
       "Build a robust online store with secure payment gateways, comprehensive product management, user accounts, and inventory systems.",
-    price: "Starting from $3500",
+    price: "Starting from $2500",
     duration: "6-10 weeks",
     icon: ShoppingCart,
   },
   {
-    id: 3,
+    id: 4,
     name: "Web Application Development",
     description:
       "Develop custom web applications with complex functionalities, scalable databases, seamless API integrations, and intuitive user interfaces.",
@@ -180,7 +182,7 @@ const services = [
     icon: Code,
   },
   {
-    id: 4,
+    id: 5,
     name: "Website Maintenance & Support",
     description:
       "Ongoing updates, proactive security monitoring, swift bug fixes, and performance optimization to ensure your site runs smoothly and securely 24/7.",
@@ -189,7 +191,7 @@ const services = [
     icon: Settings,
   },
   {
-    id: 5,
+    id: 6,
     name: "Search Engine Optimization (SEO)",
     description:
       "Improve your website's visibility on search engines, drive organic traffic, and achieve higher rankings for relevant keywords through on-page and technical SEO.",
@@ -198,7 +200,7 @@ const services = [
     icon: Search,
   },
   {
-    id: 6,
+    id: 7,
     name: "Technical Consulting & Strategy",
     description:
       "Expert advice on web strategy, technology stack selection, scalability planning, digital presence optimization, and project roadmap development.",
@@ -238,7 +240,7 @@ const RateCard = () => {
         <div className="absolute w-64 h-64 bg-accent rounded-full mix-blend-multiply filter blur-xl opacity-15 animate-[rotate-glow_15s_reverse_linear_infinite]"
              style={{ bottom: '15%', right: '10%' }}></div>
         {/* Subtle gradient shift overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-darkBg via-cardBg to-darkBg opacity-50 animate-gradient-shift"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-darkBg via-cardBg to-darkBg opacity-0.7 animate-gradient-shift"></div>
       </div>
 
       <div className="container mx-auto py-20 px-4 pt-32 relative z-10">
@@ -444,7 +446,7 @@ const RateCard = () => {
             Ready to discuss your web project or need a custom solution?
           </p>
           {/* Updated href to mailto link */}
-          <a href="mailto:your.email@example.com?subject=Inquiry%20from%20Rate%20Card" className="btn-primary">
+          <a href="mailto:baighangbe@gmail.com?subject=Inquiry%20from%20Rate%20Card" className="btn-primary">
             Get a Custom Quote <ArrowRight className="ml-2" />
           </a>
         </motion.div>
