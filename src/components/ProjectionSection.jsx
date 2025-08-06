@@ -3,6 +3,24 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
      {
         id: 1,
+        title: "A Delivery Food website",
+        Description: "Interactive analytics dashboard with data visualization and booking capabilities.",
+        image: "/projects/project 9.png",
+        tags: ["Nextjs", "TaiLWindCSS", "Figma"],
+        Url: "https://foodiee-opal.vercel.app/",
+        githubURL: "https://github.com/Aighangbe18/FoodCart",
+    },
+     {
+        id: 2,
+        title: "A School Portal website",
+        Description: "Interactive analytics dashboard with data visualization, each user having different functionality. (Loign passwords-admin, admin123 teacher, teacher123 student, student123)",
+        image: "/projects/project 8.png",
+        tags: ["React", "TaiLWindCSS", "Figma"],
+        Url: "https://cradle-portal.vercel.app/",
+        githubURL: "https://github.com/Aighangbe18/Cradle_Portal",
+    },
+     {
+        id: 3,
         title: "A Muscian Website Page",
         Description: "Interactive analytics dashboard with data visualization and booking capabilities.",
         image: "/projects/adura.png",
@@ -11,7 +29,7 @@ const projects = [
         githubURL: "https://github.com/Aighangbe18/SingerAfe",
     },
     {
-        id: 1,
+        id: 4,
         title: "A Booking Hotel Page",
         Description: "Interactive analytics dashboard with data visualization and filtering capabilities.",
         image: "/projects/project 1.png",
@@ -21,7 +39,7 @@ const projects = [
     },
 
     {
-        id: 2,
+        id: 5,
         title: "An Ecommerce Website",
         Description: "A beautiful Landing page using React, API and Tailwind",
         image: "/projects/project 6.png",
@@ -31,7 +49,7 @@ const projects = [
     },
 
     {
-        id: 3,
+        id: 6,
         title: "A Gmail Clone Website",
         Description: "A Websites with the same features as Gmail",
         image: "/projects/project 7.png",
@@ -41,7 +59,7 @@ const projects = [
     },
 
     {
-        id: 4,
+        id: 7,
         title: "SaaS Landing Page",
         Description: "A beautiful Landing page using React and Tailwind",
         image: "/projects/project 2.png",
@@ -51,7 +69,7 @@ const projects = [
     },
 
     {
-        id: 5,
+        id: 8,
         title: "A School Website Page",
         Description: "A beautiful Landing page using React and Tailwind",
         image: "/projects/project 3.png",
@@ -62,7 +80,7 @@ const projects = [
 
 
     {
-        id: 6,
+        id: 9,
         title: "A Music Research Page",
         Description: "A beautiful Landing page using React , framer motion and Tailwind",
         image: "/projects/project 4.png",
@@ -72,7 +90,7 @@ const projects = [
     },
 
     {
-        id: 7,
+        id: 10,
         title: "A  Music School Website Page",
         Description: "A beautiful Landing page using React and Tailwind",
         image: "/projects/project 5.png",
